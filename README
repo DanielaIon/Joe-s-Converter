@@ -2,12 +2,12 @@
 Pentru implementare am folosit 2 functii:
 
 => print_number : 	-primeste un numar inversat sub forma unui sir de caractere
-								-calculeaza lungimea sirului
-								-printeaza numarul caracter cu caracter
+			-calculeaza lungimea sirului
+			-printeaza numarul caracter cu caracter
                   
 => convert_number: -primeste un numar si o baza ca parametrii prin intermediul
-										stivei
-									-stocheaza numarul inversat sub forma unui sir de caractere
+			stivei
+		   -stocheaza numarul inversat sub forma unui sir de caractere
                    
   In main am construit o bucla.Pornesc contoarul de la 0.Mai intai pun 
 contorul pe stiva intrucat registrul este alterat de apelul functiilor. 
