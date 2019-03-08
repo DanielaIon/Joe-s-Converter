@@ -1,5 +1,4 @@
 ************************************************************************************
-Pentru implementare am folosit 2 functii:
 
 => print_number : 	-primeste un numar inversat sub forma unui sir de caractere
 			-calculeaza lungimea sirului
@@ -9,22 +8,4 @@ Pentru implementare am folosit 2 functii:
 				stivei
 			-stocheaza numarul inversat sub forma unui sir de caractere
                    
-  In main am construit o bucla.Pornesc contoarul de la 0.Mai intai pun 
-contorul pe stiva intrucat registrul este alterat de apelul functiilor. 
-Verific daca baza numarului este valida , daca nu, imi printeaza eroare si daca
-mai sunt numere in sir trece la verificarea urmatorului.Daca baza este valida 
-pun pe stiva baza apoi numarul si apelez functia de conversie. Dupa acest apel 
-voi pune sirul in care este stocat numarul pe stiva si voi face un alt apel la
-functia de afisare apoi voi sari in eticheta cu verificarile finale. Partea de
-cod care face verificarea finala scoate contorul de pe stiva , il 
-incrementeaza, compara contorul cu numarul de numere , daca nu sunt egale
-inseamna ca nu s-a ajuns la final si sare inapoi la eticheta repeat pentru a
-converti urmatorul numar din sir.
-  Functia print_number imi calculeaza mai intai lungimea sirului. Se stocheaza
-lungimea in ecx.Cand se ajunge la finalul sirului se sare la printarea fiecarui 
-byte din sir.
-  Functia convert number primeste ca parametrii o baza si un numar.Se executa
-impartiri repetate si se stocheaza restul in sirul ce compune numarul inversat
-pana cand numarul din eax(catul) este 0 .
-
 ************************************************************************************
